@@ -1,0 +1,58 @@
+.main nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+}
+
+.main nav a :hover {
+  color: #039be5;
+  background-color: #cfd8dc;
+}
+
+.dashboard {
+  margin-top: 200px;
+}
+
+.dashboard .grid {
+  margin: 0;
+}
+
+.dashboard .game_item {
+  max-width: 30%;
+  margin: 10px;
+  background-color: #3f525c;
+}
+
+.dashboard .games_container {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard .games_container .module {
+  padding: 20px;
+  text-align: center;
+  color: #eee;
+  max-height: 120px;
+  min-width: 120px;
+  border-radius: 2px;
+}
+
+.dashboard .games_container .module:hover {
+  background-color: #eee;
+  cursor: pointer;
+  color: #607d8b;
+}
+
+.mastermind_game .table {
+  margin-top: 10px;
+}
+
+.mastermind_game .table .compared_data_tr {
+  background-color: #3f525c;
+}
+
